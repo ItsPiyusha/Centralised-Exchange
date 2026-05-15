@@ -1,0 +1,11 @@
+const express = require("express");
+
+const {
+  getBalance,
+} = require("../controllers/user.controller");
+
+const router = express.Router();
+
+router.get("/balance", getBalance);
+
+module.exports = router;

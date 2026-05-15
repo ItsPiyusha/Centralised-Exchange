@@ -1,0 +1,28 @@
+{
+  "name": "centralised-exchange",
+  "version": "1.0.0",
+  "description": "A centralized exchange (Binance, NYSE, BSE, Backpack, Coinbase)   [Notes](https://petal-estimate-4e9.notion.site/CEX-3527dfd10735805081c1fcc4b82234fc)",
+  "main": "index.js",
+"scripts": {
+  "start": "node src/index.js",
+  "dev": "nodemon src/index.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsPiyusha/Centralised-Exchange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ItsPiyusha/Centralised-Exchange/issues"
+  },
+  "homepage": "https://github.com/ItsPiyusha/Centralised-Exchange#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
